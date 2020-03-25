@@ -12,7 +12,8 @@ import picocli.CommandLine.Command;
 @Command(name = "sdk", //
 		subcommands = { //
                 List.class,//
-                Default.class
+                Default.class,//
+                Broadcast.class
 		})
 public class SDK implements Runnable {
 
