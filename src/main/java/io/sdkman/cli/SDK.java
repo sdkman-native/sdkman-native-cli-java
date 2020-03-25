@@ -8,9 +8,11 @@ import java.net.URL;
 
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
+import picocli.CommandLine.HelpCommand;
 
 @Command(name = "sdk", //
-		subcommands = { //
+        subcommands = { //
+                HelpCommand.class,//
                 List.class,//
                 Default.class,//
                 Broadcast.class
